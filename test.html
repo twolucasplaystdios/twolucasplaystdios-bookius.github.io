@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <button onclick="playPause()">Play or pause</button> <br></br>
+        <video id="avideo">
+            <source src="assets/vid-and-pic/vid/test.mp4">
+            Your browser does not support HTML video.
+        </video>
+        <script>
+            var video = document.getElementById('avideo');
+            function playPause() {
+                if (video.paused)
+                    video.play();
+                else
+                    video.pause();
+            }
+        </script>
+    </body>
+</html>
