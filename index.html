@@ -8,7 +8,17 @@
         <h1>歡迎來到 &nbsp; twolucasplay &nbsp; 的網站</h1>
         <button onclick="playPause()">Play or pause</button> &nbsp;
         <video id="avideo">
-            <source src="">
+            <source src="assets/vid-and-pic/vid/test.mp4">
+            Your browser does not support HTML video.
         </video>
+        <script>
+            var video = document.getElementById('avideo');
+            function playPause() {
+                if (video.paused)
+                    video.play();
+                else
+                    video.pause();
+            }
+        </script>
     </body>
 </html>
