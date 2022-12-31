@@ -1,7 +1,11 @@
 import time
+#載入資料包
 
 timer = 0
 isbreak = False
+# 設定變數
+#時間
+
 
 def timer2():
     global timer, isbreak
