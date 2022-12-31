@@ -17,7 +17,7 @@ def countdown():
     for i in range(timer):
         time.sleep(1)
         print(timer - i)
-    print('')
+    print('時間到了')
 
 while True:
     timer2()
