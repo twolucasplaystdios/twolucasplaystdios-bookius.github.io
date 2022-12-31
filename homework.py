@@ -9,7 +9,7 @@ def timer2():
         timer = input('時間')
         if timer == 0:
             isbreak = True
-    except ValueError:
+    except TypeError:
         print('錯誤')
         timer2()
 
@@ -17,6 +17,7 @@ def countdown():
     for i in range(timer):
         time.sleep(1)
         print(timer - i)
+    print('')
 
 while True:
     timer2()
