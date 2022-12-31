@@ -6,10 +6,10 @@ isbreak = False
 def timer2():
     global timer, isbreak
     try:
-        timer = input('時間')
+        timer = int(input('時間'))
         if timer == 0:
             isbreak = True
-    except SyntaxError:
+    except TypeError:
         print('錯誤')
         timer2()
 
