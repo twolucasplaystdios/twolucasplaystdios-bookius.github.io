@@ -9,7 +9,7 @@ def timer2():
         timer = input('時間')
         if timer == 0:
             isbreak = True
-    except TypeError:
+    except SyntaxError:
         print('錯誤')
         timer2()
 
