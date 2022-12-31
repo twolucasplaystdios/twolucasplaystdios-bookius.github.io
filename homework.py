@@ -4,8 +4,8 @@ import time
 timer = 0
 isbreak = False
 # 設定變數
-#時間
-
+# timer 為主要倒數計時
+# isbreak 為迴圈的結束判斷
 
 def timer2():
     global timer, isbreak
