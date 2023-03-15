@@ -17,7 +17,7 @@ input:hover {
     border-color: blueviolet;
 }
 
-@font-face {
+body {
     font-family: 'monospace.ttf';
-    src: url("monospace.ttf");
+    src: url("./monospace.ttf");
 }
